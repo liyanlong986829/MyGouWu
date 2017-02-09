@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.my.NewsFragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <TextView
+           android:id="@+id/title"
+           android:gravity="center_horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="35dp" />
+
+
+
+        <FrameLayout
+            android:layout_weight="7"
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="fill" >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="57dp" >
+        </TabWidget>
+
+
+    </LinearLayout>
+</com.example.administrator.my.NewsFragmentTabHost>
